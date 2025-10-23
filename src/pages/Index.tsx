@@ -115,13 +115,6 @@ export default function Index() {
     <div className="min-h-screen bg-gradient-to-br from-purple-50 via-pink-50 to-blue-50 p-4 md:p-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-8 animate-fade-in">
-          <div className="flex justify-center mb-6">
-            <img 
-              src="https://cdn.poehali.dev/projects/e2991305-37ac-4910-8470-11f723553401/files/ff3603ba-54ce-48d3-b510-b4bcddc715da.jpg" 
-              alt="Котик" 
-              className="w-48 h-48 object-cover rounded-full shadow-2xl ring-4 ring-white/50 hover:scale-105 transition-transform"
-            />
-          </div>
           <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-[#8B5CF6] via-[#D946EF] to-[#0EA5E9] bg-clip-text text-transparent mb-2">
             Календарь Событий
           </h1>
