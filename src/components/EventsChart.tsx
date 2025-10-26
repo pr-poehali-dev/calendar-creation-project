@@ -15,9 +15,7 @@ export default function EventsChart() {
 
   return (
     <Card className="p-6 backdrop-blur-sm bg-white/80 shadow-2xl border-2 mt-8">
-      <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-[#8B5CF6] via-[#D946EF] to-[#0EA5E9] bg-clip-text text-transparent">
-        Статистика событий
-      </h3>
+      <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-[#8B5CF6] via-[#D946EF] to-[#0EA5E9] bg-clip-text text-transparent text-center">Статистика</h3>
       <ResponsiveContainer width="100%" height={300}>
         <LineChart data={data}>
           <CartesianGrid strokeDasharray="3 3" stroke="#e0e0e0" />
