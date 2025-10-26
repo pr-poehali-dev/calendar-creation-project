@@ -9,6 +9,7 @@ import Icon from '@/components/ui/icon';
 import { format, startOfMonth, endOfMonth, eachDayOfInterval, isSameMonth, isToday, isSameDay, addMonths, subMonths } from 'date-fns';
 import { ru } from 'date-fns/locale';
 import { toast } from 'sonner';
+import EventsChart from '@/components/EventsChart';
 
 interface Event {
   id: string;
@@ -200,6 +201,8 @@ export default function Index() {
             })}
           </div>
         </Card>
+
+        <EventsChart />
 
         <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
           <DialogContent className="sm:max-w-[500px] backdrop-blur-xl bg-white/95">
